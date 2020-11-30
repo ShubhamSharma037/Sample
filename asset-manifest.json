@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Sample/static/css/main.63eb681e.chunk.css",
+    "main.js": "/Sample/static/js/main.378ae424.chunk.js",
+    "main.js.map": "/Sample/static/js/main.378ae424.chunk.js.map",
+    "runtime-main.js": "/Sample/static/js/runtime-main.bdf711af.js",
+    "runtime-main.js.map": "/Sample/static/js/runtime-main.bdf711af.js.map",
+    "static/css/2.6095e193.chunk.css": "/Sample/static/css/2.6095e193.chunk.css",
+    "static/js/2.06ad1c81.chunk.js": "/Sample/static/js/2.06ad1c81.chunk.js",
+    "static/js/2.06ad1c81.chunk.js.map": "/Sample/static/js/2.06ad1c81.chunk.js.map",
+    "index.html": "/Sample/index.html",
+    "precache-manifest.1fb0c0ea0267c1be46458960d1b89477.js": "/Sample/precache-manifest.1fb0c0ea0267c1be46458960d1b89477.js",
+    "service-worker.js": "/Sample/service-worker.js",
+    "static/css/2.6095e193.chunk.css.map": "/Sample/static/css/2.6095e193.chunk.css.map",
+    "static/css/main.63eb681e.chunk.css.map": "/Sample/static/css/main.63eb681e.chunk.css.map",
+    "static/js/2.06ad1c81.chunk.js.LICENSE.txt": "/Sample/static/js/2.06ad1c81.chunk.js.LICENSE.txt",
+    "static/media/arc.svg": "/Sample/static/media/arc.73656f4a.svg",
+    "static/media/bg_1.jpg": "/Sample/static/media/bg_1.6adbc93c.jpg",
+    "static/media/counter.module.css": "/Sample/static/media/counter_bg.97d65cce.webp",
+    "static/media/home1.jpg": "/Sample/static/media/home1.5c2f3d34.jpg",
+    "static/media/home2.jpg": "/Sample/static/media/home2.e5077bad.jpg",
+    "static/media/home3.jpg": "/Sample/static/media/home3.12cab8ae.jpg",
+    "static/media/home4.jpg": "/Sample/static/media/home4.954af54b.jpg",
+    "static/media/mail.webp": "/Sample/static/media/mail.daee0ca9.webp",
+    "static/media/pen.svg": "/Sample/static/media/pen.c2fd9a34.svg",
+    "static/media/styles.css": "/Sample/static/media/revicons.2feb69cc.eot",
+    "static/media/service1.jpg": "/Sample/static/media/service1.164e8d7d.jpg",
+    "static/media/service2.jpg": "/Sample/static/media/service2.8d5cf7c5.jpg",
+    "static/media/service3.jpg": "/Sample/static/media/service3.f58fe1ea.jpg",
+    "static/media/tools.svg": "/Sample/static/media/tools.b712e6ca.svg",
+    "static/media/workflow1.png": "/Sample/static/media/workflow1.dbb6c9de.png",
+    "static/media/workflow2.webp": "/Sample/static/media/workflow2.3a02eedf.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdf711af.js",
+    "static/css/2.6095e193.chunk.css",
+    "static/js/2.06ad1c81.chunk.js",
+    "static/css/main.63eb681e.chunk.css",
+    "static/js/main.378ae424.chunk.js"
+  ]
+}
