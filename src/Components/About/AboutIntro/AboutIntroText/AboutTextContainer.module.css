@@ -1,0 +1,56 @@
+@import"https://fonts.googleapis.com/css2?family=Lora&display=swap";
+
+.aboutText{
+    float: right;
+    width : 40%;
+    height: 80%;
+    overflow: hidden;
+    margin-right: 100px;
+    padding : 5px;
+}
+
+.txt{
+    
+    width: 100%;
+    height : auto;
+}
+
+
+.txt p{
+
+    text-align: justify;
+    line-height: 35px;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color : #666666;
+}
+
+
+.heading{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5em;
+    color: #001233;
+    line-height: 40px;
+}
+
+
+@media (max-width : 600px){
+    .aboutText{
+        float :none;
+        height: auto;
+        width : 100%;
+    }
+
+    .heading{
+        font-size : 1em;
+    }
+    .txt{
+        padding: 5px;
+    }
+    .txt p{
+        height : auto;
+        font-size : 10px;
+        line-height: 20px;
+        text-align: justify;
+    }
+}

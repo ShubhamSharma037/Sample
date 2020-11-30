@@ -1,0 +1,21 @@
+.Row{
+    height : 150px;
+    width: 85%;
+    margin : 20px auto;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border : 1px solid black; */
+    overflow: hidden;
+}
+
+
+
+
+@media (max-width : 600px){
+    .Row{
+        padding : 5px;
+        height : auto;
+    }
+}

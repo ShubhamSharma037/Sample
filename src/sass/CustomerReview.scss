@@ -1,0 +1,28 @@
+.CustomerContainer{
+    height: 80vh;
+    width: 100%;
+    padding : 0 80px;
+    // border : 1px solid black;
+}
+
+
+.CustomerFeeds{
+    position: relative;
+    padding : 5px;
+    height: 80%;
+    width : 100%;
+    margin : 0 auto;
+    // border : 1px solid black;
+    // overflow: hidden;
+}
+
+
+@media(max-width:600px){
+    .CustomerContainer{
+        padding : 5px;
+    }
+    .CustomerFeeds{
+        padding: 0;
+        width : 100%;
+    }
+}

@@ -1,0 +1,19 @@
+.gallery{
+    // padding: 10px 0;
+    height : 50%;
+    width : auto;
+    // border : 1px solid black;    
+    // overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+@media (max-width : 600px){
+    .gallery:first-child{
+        margin-top: 50px;
+    }
+}

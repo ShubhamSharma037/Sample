@@ -1,0 +1,43 @@
+
+.hamburger{
+
+    float: right;
+    height: 100%;
+    width : 30px;
+    // border : 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: transform 0.4s ease;
+
+    span{
+        height: 3px;
+        border-radius : 5px;
+        width: 100%;
+        background-color: #000;
+        transition: all .4s ease;
+    }
+}
+
+.change{
+    
+    
+    
+    span:first-child{
+        transform: rotate(50deg) translateX(50%);
+        background-color: #ffff;
+    }
+    span:last-child{
+        transform: rotate(-50deg) translateX(50%);
+        background-color: #ffff;
+    }
+    span:nth-child(2){
+        opacity: 0;
+    }
+}
+
+@media (min-width : 600px){
+    .hamburger{
+        display: none;
+    }
+}

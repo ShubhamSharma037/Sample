@@ -1,0 +1,25 @@
+.Row{
+    height : 70%;
+    width : 100%;
+    padding : 0 30px;
+    // border : 1px solid blue;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+
+@media (max-width:600px){
+    .Row{
+        padding: 20px 0 0 0;
+        height: auto;
+        width: 100%;
+        margin : 0 auto;
+        // align-items: none;
+        justify-content: initial;
+        flex-flow: column wrap;
+    }
+}

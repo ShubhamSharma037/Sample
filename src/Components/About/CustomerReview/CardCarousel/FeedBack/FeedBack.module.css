@@ -1,0 +1,38 @@
+
+
+.Feed{
+    width : 90%;
+    margin : 20px  0 20px 10px;
+    /* border : 1px solid brown; */
+}
+
+
+.Feed p::before, .Feed p::after{
+    display: inline-block;
+    content: "\201C";
+    color: gray;
+    font-size: 2em;
+    /* border : 1px solid black; */
+}
+
+.Feed p::after{
+    content : '\201D';
+}
+
+
+.Feed p{
+    border-left : 1px solid #ccc;
+    padding-left: 15px ;
+    font-family: Lora, serif;
+    font-size : 15px;
+    line-height : 25px;
+    color : #a9a9a9;
+    text-align: justify;
+}
+
+@media (max-width: 600px){
+
+.Feed p{
+    font-size : 10px;
+}
+}

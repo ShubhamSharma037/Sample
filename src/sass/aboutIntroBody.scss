@@ -1,0 +1,16 @@
+.aboutIntroBody{
+    height: auto;
+    width: 100%;
+    padding : 20px;
+    // border : 1px solid red;
+    display: inline-block;
+}
+
+
+
+@media (max-width : 600px){
+    .aboutIntroBody{
+        padding: 5px;
+        width: 100%;
+    }
+}
