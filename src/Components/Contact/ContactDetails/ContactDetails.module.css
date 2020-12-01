@@ -1,7 +1,6 @@
 .Details{
     margin-left :  50%;
     transform: translateX(-50%);
-    height : 100%;
     width: 60%;
     border-radius: 5px;
     border : 1px solid #ccc;
@@ -22,7 +21,6 @@
         margin-top : 50px;
         margin-bottom : 50px;
         width: 80%;
-        height: auto;
         gap : none;
     }
 }

@@ -8,9 +8,9 @@
   width: 100%; }
 
 .body {
-  line-height: 20px;
+  line-height: 25px;
   font-family: 'Lora', serif;
-  font-size: 12px;
+  font-size: 15px;
   color: #1b1425; }
 
 @media (max-width: 600px) {
@@ -20,7 +20,6 @@
 
   .body {
     padding: 5px;
-    line-height: 25px;
     text-align: justify;
     font-size: 12px; } }
 

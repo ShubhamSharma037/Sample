@@ -24,7 +24,6 @@
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 10; }
   .overlay .textOnLeft {
-    margin-top: 5%;
     height: auto;
     width: 700px; }
     .overlay .textOnLeft h1, .overlay .textOnLeft h3 {

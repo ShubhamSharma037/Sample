@@ -1,5 +1,5 @@
 .Contact{
-    height: 100vh;
+    height: auto;
     width : 100%;
     padding : 50px;
     /* border : 1px solid red; */
@@ -7,7 +7,6 @@
 
 @media (max-width : 600px){
     .Contact{
-        height: auto;
         padding : 5px;
     }
 }
