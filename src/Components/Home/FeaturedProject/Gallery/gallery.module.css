@@ -1,6 +1,6 @@
 .gallery {
-  height: 50%;
-  width: auto;
+  height: 55%;
+  width: 100%;
   white-space: nowrap; }
 
 @media (max-width: 600px) {

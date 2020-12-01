@@ -19,14 +19,6 @@ const Home : React.FC = ()=>{
         window.scrollTo(0,0);
         
         AOS.init({
-            // offset : ()=>{
-            //     if(window.innerWidth>600){
-            //         return '300'
-            //     }
-            //     else{
-            //         return '100';
-            //     }
-            // },
             duration : 600,
             disable : 'mobile',
             once : true

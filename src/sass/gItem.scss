@@ -4,7 +4,6 @@
     width : 500px;
     height : 100%;
     margin-right: 25px;
-    box-shadow: 5px 7px 20px  rgba(0, 0, 0, 0.5);
     border-radius : 5px 40px;
     overflow: hidden;
     // transform: translateX(100%);
@@ -18,7 +17,6 @@
 
 @media(max-width:600px){
     .gItem{
-        height: 150px;
-        width: 250px;
+        width: 400px;
     }
 }
