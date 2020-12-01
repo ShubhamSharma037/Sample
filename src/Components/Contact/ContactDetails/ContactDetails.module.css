@@ -20,6 +20,7 @@
 @media (max-width: 600px){
     .Details{
         margin-top : 50px;
+        margin-bottom : 50px;
         width: 80%;
         height: auto;
         gap : none;
