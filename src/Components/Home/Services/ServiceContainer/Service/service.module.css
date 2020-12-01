@@ -104,6 +104,8 @@
       width: 20%; }
 
   .ser_con p {
-    word-spacing: initial; } }
+    word-spacing: initial;
+    font-size: 12px;
+    line-height: 18px; } }
 
 /*# sourceMappingURL=service.module.css.map */

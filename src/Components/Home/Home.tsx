@@ -17,10 +17,8 @@ const Home : React.FC = ()=>{
     
     useEffect(()=>{
         window.scrollTo(0,0);
-        
         AOS.init({
             duration : 600,
-            disable : 'mobile',
             once : true
         })
     })
