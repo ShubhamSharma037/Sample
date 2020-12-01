@@ -1,0 +1,16 @@
+.Slider {
+  position: relative;
+  margin: 20px 20px 0 0;
+  float: right;
+  width: 50%;
+  height: 80%;
+  border-radius: 3px;
+  box-shadow: 2px 2px 8px #ccc, inset 1px 1px 4px #ccc;
+  overflow: hidden; }
+
+.ShowSlider {
+  position: absolute;
+  height: 90%;
+  width: 400%; }
+
+/*# sourceMappingURL=AboutSlider.css.map */

@@ -1,0 +1,23 @@
+.navbar {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #ccc; }
+  .navbar nav {
+    height: 100%;
+    width: auto; }
+
+.background {
+  background-color: #fff; }
+
+@media (max-width: 600px) {
+  .navbar {
+    height: 50px;
+    padding: 10px; }
+
+  .DesktopOnly {
+    display: none; } }
+
+/*# sourceMappingURL=navigation.css.map */

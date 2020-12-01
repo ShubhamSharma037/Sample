@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAQ;EACJ,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,EAAE;EACR,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,IAAI;EAEX,UAAU,EAAE,OAAO",
+"sources": ["../sass/FP.scss"],
+"names": [],
+"file": "FP.css"
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Judson&display=swap");
+.title {
+  height: auto;
+  width: 100%;
+  margin: 40px 0;
+  border-bottom: 1px solid #8377D1;
+  text-align: left; }
+
+.heading {
+  font-family: 'Castoro', serif;
+  font-size: 2em;
+  font-weight: lighter;
+  color: #001233;
+  line-height: 40px; }
+
+@media (max-width: 600px) {
+  .title {
+    width: 100%;
+    margin: 20px 0; }
+
+  .heading {
+    margin-left: 0;
+    line-height: 30px;
+    font-size: 30px; } }
+
+/*# sourceMappingURL=title.css.map */

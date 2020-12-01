@@ -1,0 +1,26 @@
+@import "https://fonts.googleapis.com/css2?family=Lora&display=swap";
+.item {
+  height: auto;
+  width: 200px;
+  padding: 2px; }
+  .item h3 {
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-size: 1.2em; }
+
+.itemCounter {
+  line-height: 80px;
+  color: #fff;
+  font-size: 3em; }
+
+@media (max-width: 600px) {
+  .item {
+    width: auto; }
+    .item h3 {
+      font-size: 8px; }
+
+  .itemCounter {
+    font-size: 20px;
+    line-height: 40px; } }
+
+/*# sourceMappingURL=item.css.map */

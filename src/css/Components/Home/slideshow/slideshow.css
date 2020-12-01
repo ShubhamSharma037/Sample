@@ -1,0 +1,114 @@
+.slideShowContainer {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.slides {
+  width: 400%;
+  height: 100%;
+  white-space: nowrap; }
+
+.slide {
+  animation: slide 10s ease infinite; }
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 30px 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10; }
+  .overlay .textOnLeft {
+    margin-top: 5%;
+    height: auto;
+    width: 700px; }
+    .overlay .textOnLeft h1, .overlay .textOnLeft h3 {
+      display: inline-block;
+      font-size: 15em;
+      color: #fff;
+      font-family: Playfair;
+      white-space: nowrap; }
+    .overlay .textOnLeft h3 {
+      opacity: 0;
+      font-size: 8em; }
+    .overlay .textOnLeft .fadeUp {
+      animation: fadeUp .3s ease; }
+    .overlay .textOnLeft .fadeLeft {
+      animation: fadeLeft .4s ease;
+      animation-delay: .4s;
+      animation-fill-mode: forwards; }
+    .overlay .textOnLeft .flipY {
+      animation: flipY .4s ease;
+      animation-delay: .8s;
+      animation-fill-mode: forwards; }
+    .overlay .textOnLeft .zoomOut {
+      animation: zoomOut .4s ease;
+      animation-fill-mode: forwards;
+      animation-delay: 1s; }
+
+@keyframes slide {
+  0% {
+    transform: translateX(0); }
+  20% {
+    transform: translateX(0); }
+  25% {
+    transform: translateX(-25%); }
+  45% {
+    transform: translateX(-25%); }
+  50% {
+    transform: translateX(-50%); }
+  70% {
+    transform: translateX(-50%); }
+  75% {
+    transform: translateX(-75%); }
+  95% {
+    transform: translateX(-75%); }
+  100% {
+    transform: translateX(0); } }
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px); }
+  to {
+    opacity: 1;
+    transform: translateY(0); } }
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px); }
+  to {
+    opacity: 1;
+    transform: translateX(0); } }
+@keyframes flipY {
+  from {
+    opacity: 0;
+    transform: translateY(-100px); }
+  to {
+    opacity: 1;
+    transform: translateY(0); } }
+@keyframes zoomOut {
+  from {
+    opacity: 0;
+    transform: scale(5); }
+  to {
+    opacity: 1;
+    transform: scale(1); } }
+@media (max-width: 600px) {
+  .overlay {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .overlay .textOnLeft {
+      height: auto;
+      width: 100%; }
+      .overlay .textOnLeft h1 {
+        font-size: 5em; }
+      .overlay .textOnLeft h3 {
+        font-size: 3em; } }
+
+/*# sourceMappingURL=slideshow.css.map */

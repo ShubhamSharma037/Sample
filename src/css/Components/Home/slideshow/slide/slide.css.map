@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACP,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,GAAG;EAEV,eAAG;IACC,MAAM,EAAE,IAAI;IACZ,KAAK,EAAE,IAAI",
+"sources": ["../../../../../sass/Components/Home/slideshow/slide/slide.scss"],
+"names": [],
+"file": "slide.css"
+}

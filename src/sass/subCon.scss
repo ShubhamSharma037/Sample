@@ -7,12 +7,13 @@
     margin : 0 auto;
     height : auto;
     width: 100%;  
+    // border : 1px solid red;
 }
 
 .body{
-    line-height: 30px;
+    line-height: 20px;
     font-family: 'Lora', serif;
-    font-size: 15px;
+    font-size: 12px;
     color : #1b1425;
     
 }
@@ -20,12 +21,12 @@
 @media(max-width:600px){
     .con{
         top : 10px;
-        transform: translateY(10%);
+        transform: translateY(0%);
     }
     .body{
         // display: none;
         padding : 5px;
-        line-height: 20px;
+        line-height: 25px;
         text-align: justify;
         font-size: 15px;
     }

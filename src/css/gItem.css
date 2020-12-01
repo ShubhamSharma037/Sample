@@ -1,0 +1,16 @@
+.gItem {
+  display: inline-block;
+  width: 500px;
+  height: 100%;
+  margin-right: 25px;
+  border-radius: 5px 40px;
+  overflow: hidden; }
+  .gItem img {
+    height: 100%;
+    width: 100%; }
+
+@media (max-width: 600px) {
+  .gItem {
+    width: 400px; } }
+
+/*# sourceMappingURL=gItem.css.map */

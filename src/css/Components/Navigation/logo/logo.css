@@ -1,0 +1,19 @@
+@import "https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap";
+.logo {
+  height: auto;
+  margin: 15px 0 0 50px;
+  font-family: 'PT Serif', serif;
+  font-size: 1.3em;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .logo h1 {
+    color: #8377D1; }
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 12px;
+    margin: 0; } }
+
+/*# sourceMappingURL=logo.css.map */
