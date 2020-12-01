@@ -31,7 +31,7 @@
       display: inline-block;
       font-size: 15em;
       color: #fff;
-      font-family: Playfair;
+      font-family: 'Playfair Display', serif;
       white-space: nowrap; }
     .overlay .textOnLeft h3 {
       opacity: 0;
