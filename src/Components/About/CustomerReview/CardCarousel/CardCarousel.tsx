@@ -42,7 +42,7 @@ const CardCarousel : React.FC = () =>{
         swipeable
         draggable
         responsive={responsive}
-        containerClass={classes.carousel}
+        // containerClass={classes.carousel}
         itemClass={classes.card}
         >
             

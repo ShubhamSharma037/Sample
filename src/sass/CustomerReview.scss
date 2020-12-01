@@ -1,5 +1,5 @@
 .CustomerContainer{
-    height: 80vh;
+    height: auto;
     width: 100%;
     padding : 0 80px;
     // border : 1px solid black;
@@ -9,11 +9,10 @@
 .CustomerFeeds{
     position: relative;
     padding : 5px;
-    height: 80%;
     width : 100%;
-    margin : 0 auto;
+    margin-bottom : 50px;
+
     // border : 1px solid black;
-    // overflow: hidden;
 }
 
 
@@ -22,6 +21,7 @@
         padding : 10px;
     }
     .CustomerFeeds{
+        margin-bottom: 20px;
         padding: 0;
         width : 100%;
     }

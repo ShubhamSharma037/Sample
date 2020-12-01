@@ -25,7 +25,7 @@ const Title = styled.h1`
     color : #fff;
 
     @media(max-width : 600px){
-        font-size : 4em;
+        font-size : 4.2em;
     }
 `;
 

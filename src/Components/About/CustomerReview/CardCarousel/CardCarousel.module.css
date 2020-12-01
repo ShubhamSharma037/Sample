@@ -1,8 +1,6 @@
 .carousel {
   height: 100%;
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden; }
+  width: auto; }
 
 .card {
   cursor: grabbing;
