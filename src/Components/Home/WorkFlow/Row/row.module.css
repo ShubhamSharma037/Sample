@@ -1,4 +1,5 @@
 .Row {
+  position: relative;
   height: 70%;
   width: 100%;
   padding: 0 30px;
@@ -6,15 +7,14 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 100; }
 
 @media (max-width: 600px) {
   .Row {
     padding: 20px 0 0 0;
-    height: auto;
+    height: 90%;
     width: 100%;
-    margin: 0 auto;
-    justify-content: space-between;
     flex-flow: column wrap; } }
 
 /*# sourceMappingURL=row.module.css.map */
