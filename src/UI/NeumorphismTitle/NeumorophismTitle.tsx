@@ -9,11 +9,12 @@ const Section  = styled.section`
     display : flex;
     justify-content : center;
     align-items : center;
+    flex-wrap : wrap;
     margin-top : 100px;
     box-shadow : inset -2px -2px 6px #ccc,
                  inset 2px 2px 4px #ccc;
     @media(max-width : 600px){
-        height : 100px;
+        height : 150px;
     }
 `;
 
@@ -24,7 +25,7 @@ const Title = styled.h1`
     color : #fff;
 
     @media(max-width : 600px){
-        font-size : 3.5em;
+        font-size : 4em;
     }
 `;
 
