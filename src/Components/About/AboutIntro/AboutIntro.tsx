@@ -8,7 +8,7 @@ import src from '../../../media/homeSlider/home1.jpg';
 
 const AboutIntro : React.FC = () =>{
     return(
-        <section className={classes.aboutIntroBody}>
+        <section className={classes.aboutIntroBody} data-aos='fade-up'>
             <Pic src={src}/>
             <AboutText/>
         </section>

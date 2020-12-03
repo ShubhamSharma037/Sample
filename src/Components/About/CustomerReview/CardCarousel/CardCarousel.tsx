@@ -10,7 +10,8 @@ const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3,
-      slidesToSlide: 3 // optional, default to 1.
+      slidesToSlide: 1 // optional, default to 1.
+      
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -42,7 +43,7 @@ const CardCarousel : React.FC = () =>{
         swipeable
         draggable
         responsive={responsive}
-        // containerClass={classes.carousel}
+        containerClass={classes.carousel}
         itemClass={classes.card}
         >
             

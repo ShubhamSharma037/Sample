@@ -1,0 +1,11 @@
+.Project{
+    padding: 10px;
+    height: auto;
+    width : 100%;
+    // border : 1px solid black;
+    margin-bottom: 50px;
+}
+
+@media(max-width:600px){
+    margin-bottom: 20px;
+}

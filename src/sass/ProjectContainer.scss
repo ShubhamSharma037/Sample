@@ -1,0 +1,12 @@
+.ProjectContainer{
+    width: 100%;
+    padding : 30px;
+    // border: 1px solid red;
+}
+
+
+@media(max-width : 600px){
+    .ProjectContainer{
+        padding: 10px;
+    }
+}

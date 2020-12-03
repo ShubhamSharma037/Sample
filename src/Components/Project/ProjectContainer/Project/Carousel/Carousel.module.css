@@ -1,0 +1,17 @@
+.CarouselContainer{
+    /* margin-top : 30px; */
+    height: 600px;
+    width : 100%;
+    /* align-items: initial; */
+    /* border : 1px solid red; */
+}
+
+.items{
+    height: 500px;
+    width: auto;
+}
+.items img{
+    height: 100%;
+    width: 80%;
+}
+

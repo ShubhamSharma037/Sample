@@ -1,17 +1,25 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './App.css';
+import AOS from 'aos';
 import Layout from './UI/Layout/Layout';
 import Home from './Components/Home/Home'
 import About from './Components/About/about';
 import Contact from './Components/Contact/Contact';
-import Projects from './Components/Project/Project';
+import Projects from './Components/Project/ProjectPage';
 import {Switch, Route, BrowserRouter} from 'react-router-dom';
 
 
 
 function App() {
   
-  
+  useEffect(()=>{
+    window.scrollTo(0,0);
+    AOS.init({
+        duration : 500,
+        easing : "ease-in",
+        once : true
+    })
+  })
 
 
   return (

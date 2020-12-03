@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://ShubhamSharma037.github.io/Sample",
+  "homepage": "https://ShubhamSharma037.github.io/Sample",
   "name": "dpdzines2.0",
   "version": "0.1.0",
   "private": true,
@@ -27,8 +27,8 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-  	"predeploy" : "npm run build",
-  	"deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

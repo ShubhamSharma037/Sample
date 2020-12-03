@@ -1,0 +1,10 @@
+.Project {
+  padding: 10px;
+  height: auto;
+  width: 100%;
+  margin-bottom: 50px; }
+
+@media (max-width: 600px) {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=Project.module.css.map */
