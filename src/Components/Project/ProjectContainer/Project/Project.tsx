@@ -25,7 +25,7 @@ const Title = Styled.div`
 
 const Project : React.FC<Props> = (props) =>{
     return(
-        <div className={classes.Project}>
+        <div className={classes.Project} data-aos='fade-up' data-aos-duration="400">
             <Title>Project Name</Title>
             <Carousel>{props.children}</Carousel>
         </div>

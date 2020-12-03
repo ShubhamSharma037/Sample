@@ -22,6 +22,7 @@ const responsive = {
     mobile: {
         breakpoint: { max: 464, min: 0 },
         items: 1,
+        arrows : false,
         slidesToSlide: 1 // optional, default to 1.
     }
 };
@@ -31,6 +32,7 @@ const Carousel : React.FC<Props> = (props) =>{
     return(
         <React.Fragment>
             <ProjectCarousel
+            removeArrowOnDeviceType={['mobile']}
             infinite
             responsive={responsive}
             containerClass={classes.CarouselContainer}
