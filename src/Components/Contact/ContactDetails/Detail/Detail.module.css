@@ -24,17 +24,16 @@
 }
 
 @media (max-width : 600px){
-    .detail{
-        width: 100%;
-        /* padding : none; */
-    }
+    
     .detail img{
         height : 50px;
     }
 
+    .detail h1{
+        margin-top: 0;
+    }
     .detail h1>a{
-        height: auto;
-        line-height: 25px;
-        font-size: 15px;
+        line-height: 20px;
+        font-size: 12px;
     }
 }

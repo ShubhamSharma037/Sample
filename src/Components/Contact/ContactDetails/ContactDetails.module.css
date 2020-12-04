@@ -16,8 +16,6 @@
 @media (max-width: 600px){
     .Details{
         margin: 50px auto;
-        transform: none;
         width: 80%;
-        gap : none;
     }
 }
