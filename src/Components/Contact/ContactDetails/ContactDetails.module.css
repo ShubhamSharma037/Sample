@@ -1,9 +1,9 @@
 .Details{
     padding : 10px 0;
-    margin-left :  50%;
-    transform: translateX(-50%);
+    margin : 0 auto;
+    height : 80vh;
     width: 50%;
-    height : 75vh;
+    /* height : 75vh; */
     border-radius: 5px;
     box-shadow: 
                 inset 0px 0px 8px #ccc,
@@ -15,8 +15,8 @@
 
 @media (max-width: 600px){
     .Details{
-        margin-top : 50px;
-        margin-bottom : 50px;
+        margin: 50px auto;
+        transform: none;
         width: 80%;
         gap : none;
     }
