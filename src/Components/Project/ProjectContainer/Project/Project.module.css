@@ -2,9 +2,12 @@
   padding: 10px;
   height: auto;
   width: 100%;
-  margin-bottom: 50px; }
+  margin-bottom: 20px; }
 
 @media (max-width: 600px) {
-  margin-bottom: 20px; }
+  .Project {
+    margin-top: 20px;
+    padding: 0;
+    height: 90vh; } }
 
 /*# sourceMappingURL=Project.module.css.map */

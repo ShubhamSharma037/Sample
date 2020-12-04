@@ -87,7 +87,7 @@
 
 @media (max-width: 600px) {
   .service {
-    height: 200px;
+    height: 30%;
     width: 100%;
     transition: width .4s ease; }
     .service:hover .content h1 {

@@ -1,6 +1,8 @@
 .carousel {
+  display: flex;
   height: 100%;
-  width: auto; }
+  width: auto;
+  align-items: initial; }
 
 .card {
   cursor: grabbing;

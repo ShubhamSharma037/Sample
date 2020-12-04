@@ -132,7 +132,7 @@
 
 
     .service{
-        height: 200px;
+        height: 30%;
         width: 100%;
         transition : width .4s ease;
        
@@ -145,6 +145,7 @@
 
     .content{
         // border : 1px solid red;
+
         width : 100%;
         overflow: hidden;
         h1{

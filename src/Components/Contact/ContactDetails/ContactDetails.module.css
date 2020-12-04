@@ -1,17 +1,14 @@
 .Details{
+    padding : 10px 0;
     margin-left :  50%;
     transform: translateX(-50%);
-    width: 60%;
+    width: 50%;
+    height : 75vh;
     border-radius: 5px;
-    border : 1px solid #ccc;
     box-shadow: 
                 inset 0px 0px 8px #ccc,
                 inset -1px -1px 8px #ccc;
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    gap : 30px;
-    flex-flow: column wrap;
+    
     overflow: hidden;
 }
 

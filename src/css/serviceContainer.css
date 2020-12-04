@@ -1,18 +1,18 @@
 .serviceContainer {
   padding: 30px;
-  margin-top: 10px;
-  height: auto;
+  margin-top: 50px;
+  height: 40%;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   overflow: hidden; }
 
 @media (max-width: 600px) {
   .serviceContainer {
-    padding: 5px;
-    height: 85%;
+    padding: 10px;
+    height: 80%;
     flex-flow: column wrap; } }
 
-/*# sourceMappingURL=serviceContainer.module.css.map */
+/*# sourceMappingURL=serviceContainer.css.map */

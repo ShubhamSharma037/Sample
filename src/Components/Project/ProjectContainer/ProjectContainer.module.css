@@ -1,9 +1,11 @@
 .ProjectContainer {
+  height: 100%;
   width: 100%;
   padding: 30px; }
 
 @media (max-width: 600px) {
   .ProjectContainer {
-    padding: 10px; } }
+    height: 100%;
+    padding: 5px 10px; } }
 
 /*# sourceMappingURL=ProjectContainer.module.css.map */

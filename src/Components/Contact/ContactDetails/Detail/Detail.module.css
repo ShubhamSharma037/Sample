@@ -1,11 +1,12 @@
 .detail{
-    width: 80%;
+    height: 35%;
+    width: 100%;
     padding : 20px 0;
     border-bottom : 1px solid #ccc;
 }
 
-.detail:last-child{
-    border : none;
+.detail img{
+    height : 30%;
 }
 
 .detail h1{
@@ -28,10 +29,11 @@
         padding : none;
     }
     .detail img{
-        height : 50px;
+        height : 45%;
     }
 
     .detail h1>a{
+        height: auto;
         line-height: 25px;
         font-size: 15px;
     }

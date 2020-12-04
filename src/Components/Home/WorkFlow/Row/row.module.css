@@ -11,7 +11,7 @@
 
 @media (max-width: 600px) {
   .Row {
-    padding: 20px 0 0 0;
+    padding: 0;
     height: 85%;
     width: 100%;
     flex-flow: column wrap; } }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import SlideShow from './SlideShow/slideshow';
 import WorkFlow from './WorkFlow/workflow';
 import Welcome from './Welcome/welcome';
@@ -15,6 +15,9 @@ import Services from './Services/services';
 
 const Home : React.FC = ()=>{
 
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    })
 
     return(
         <React.Fragment>
