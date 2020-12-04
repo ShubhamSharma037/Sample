@@ -3,6 +3,7 @@
     width: 100%;
     padding : 20px 0;
     border-bottom : 1px solid #ccc;
+    overflow: hidden;
 }
 
 .detail img{
@@ -24,9 +25,9 @@
 }
 
 @media (max-width : 600px){
-    
+
     .detail img{
-        height : 50%;
+        height: 60%;
     }
 
     .detail h1{
@@ -34,6 +35,6 @@
     }
     .detail h1>a{
         line-height: 20px;
-        font-size: 12px;
+        font-size: 15px;
     }
 }
