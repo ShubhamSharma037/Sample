@@ -3,11 +3,13 @@
   top: 0;
   right: 0;
   height: 100%;
-  width: 50%;
+  width: 40%;
   background: linear-gradient(to right, #1e2227, rgba(30, 34, 39, 0.2));
   overflow: hidden;
   transition: 0.4s transform ease;
-  z-index: -1; }
+  z-index: -1;
+  display: flex;
+  align-items: center; }
 
 .Open {
   transform: translateX(0%); }
@@ -25,7 +27,7 @@
   z-index: -2; }
 
 @media (min-width: 600px) {
-  .toolbar {
+  .toolbar, .overlay {
     display: none; } }
 
 /*# sourceMappingURL=toolbar.module.css.map */

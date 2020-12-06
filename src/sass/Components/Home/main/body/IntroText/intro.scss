@@ -21,17 +21,17 @@
 
 @media (max-width:600px){
     .introText{
-        height: auto;
-        display: block;
-        margin-top: 50px;
+        margin-top: 20px;
         float: none;
+        height : auto;
         width : 100%;
-        padding : 2px;
+        padding : 5px;
+        display: block;
     }
 
     .text{
+        
         line-height : 30px;
-        // word-spacing: 2px;
         font-size : 12px;
         text-align: justify;
     }

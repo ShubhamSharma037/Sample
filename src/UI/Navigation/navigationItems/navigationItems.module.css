@@ -14,11 +14,12 @@
 @media (max-width: 600px) {
   .Links {
     float: left;
-    height: 60%;
-    margin-top: 50%; }
+    height: 40%;
+    width: 100%; }
 
   .navitemBar {
     align-items: flex-start;
+    justify-content: space-between;
     flex-direction: column; } }
 
 /*# sourceMappingURL=navigationItems.module.css.map */

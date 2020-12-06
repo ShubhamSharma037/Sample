@@ -24,8 +24,9 @@
         transform: translateY(0%);
     }
     .body{
-        // display: none;
+        height : auto;
         padding : 5px;
+        line-height: 20px;
         text-align: justify;
         font-size: 12px;
     }

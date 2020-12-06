@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { memo, useEffect } from 'react';
 import SlideShow from './SlideShow/slideshow';
 import WorkFlow from './WorkFlow/workflow';
 import Welcome from './Welcome/welcome';
@@ -33,4 +33,4 @@ const Home : React.FC = ()=>{
 }
 
 
-export default Home;
+export default memo(Home);

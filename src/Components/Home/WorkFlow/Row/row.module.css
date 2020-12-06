@@ -1,6 +1,5 @@
 .Row {
-  position: relative;
-  height: 70%;
+  height: auto;
   width: 100%;
   padding: 0 30px;
   display: flex;
