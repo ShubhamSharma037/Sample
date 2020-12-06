@@ -28,7 +28,8 @@
 
         .navitemBar{
             align-items: flex-start;
-            justify-content: space-between;
+            justify-content: none;
+            gap : 0px;
             flex-direction: column;
         }
 }
