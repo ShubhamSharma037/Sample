@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/Sample/static/css/main.54e42b94.chunk.css",
-    "main.js": "/Sample/static/js/main.4a150e20.chunk.js",
-    "main.js.map": "/Sample/static/js/main.4a150e20.chunk.js.map",
+    "main.js": "/Sample/static/js/main.bdefb826.chunk.js",
+    "main.js.map": "/Sample/static/js/main.bdefb826.chunk.js.map",
     "runtime-main.js": "/Sample/static/js/runtime-main.bdf711af.js",
     "runtime-main.js.map": "/Sample/static/js/runtime-main.bdf711af.js.map",
     "static/css/2.6095e193.chunk.css": "/Sample/static/css/2.6095e193.chunk.css",
     "static/js/2.b67bd9de.chunk.js": "/Sample/static/js/2.b67bd9de.chunk.js",
     "static/js/2.b67bd9de.chunk.js.map": "/Sample/static/js/2.b67bd9de.chunk.js.map",
     "index.html": "/Sample/index.html",
-    "precache-manifest.f35404da23fb54c8211427d231392479.js": "/Sample/precache-manifest.f35404da23fb54c8211427d231392479.js",
+    "precache-manifest.72a7ef13c98f1f357bd7beb7e7402f60.js": "/Sample/precache-manifest.72a7ef13c98f1f357bd7beb7e7402f60.js",
     "service-worker.js": "/Sample/service-worker.js",
     "static/css/2.6095e193.chunk.css.map": "/Sample/static/css/2.6095e193.chunk.css.map",
     "static/css/main.54e42b94.chunk.css.map": "/Sample/static/css/main.54e42b94.chunk.css.map",
     "static/js/2.b67bd9de.chunk.js.LICENSE.txt": "/Sample/static/js/2.b67bd9de.chunk.js.LICENSE.txt",
     "static/media/arc.svg": "/Sample/static/media/arc.73656f4a.svg",
-    "static/media/bg_1.jpg": "/Sample/static/media/bg_1.6adbc93c.jpg",
+    "static/media/bg_1.jpg": "/Sample/static/media/bg_1.2ae0b88e.jpg",
     "static/media/counter.module.css": "/Sample/static/media/counter_bg.97d65cce.webp",
-    "static/media/home1.jpg": "/Sample/static/media/home1.5c2f3d34.jpg",
-    "static/media/home2.jpg": "/Sample/static/media/home2.e5077bad.jpg",
-    "static/media/home3.jpg": "/Sample/static/media/home3.12cab8ae.jpg",
-    "static/media/home4.jpg": "/Sample/static/media/home4.954af54b.jpg",
+    "static/media/home1.jpg": "/Sample/static/media/home1.5d287d08.jpg",
+    "static/media/home2.jpg": "/Sample/static/media/home2.cddc9478.jpg",
+    "static/media/home3.jpg": "/Sample/static/media/home3.47f11844.jpg",
+    "static/media/home4.jpg": "/Sample/static/media/home4.1f203dfd.jpg",
     "static/media/mail.webp": "/Sample/static/media/mail.daee0ca9.webp",
     "static/media/pen.svg": "/Sample/static/media/pen.c2fd9a34.svg",
     "static/media/styles.css": "/Sample/static/media/revicons.2feb69cc.eot",
@@ -36,6 +36,6 @@
     "static/css/2.6095e193.chunk.css",
     "static/js/2.b67bd9de.chunk.js",
     "static/css/main.54e42b94.chunk.css",
-    "static/js/main.4a150e20.chunk.js"
+    "static/js/main.bdefb826.chunk.js"
   ]
 }
