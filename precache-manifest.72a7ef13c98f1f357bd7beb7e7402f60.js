@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd8c34c3ccbace396d47e039f216e3a3",
+    "revision": "bd923610624e123cf19c11ac7662e416",
     "url": "/Sample/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sample/static/css/2.6095e193.chunk.css"
   },
   {
-    "revision": "da7e49c0def8050a4b1d",
+    "revision": "da4fc2d9c4ed7e0de300",
     "url": "/Sample/static/css/main.54e42b94.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sample/static/js/2.b67bd9de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da7e49c0def8050a4b1d",
-    "url": "/Sample/static/js/main.4a150e20.chunk.js"
+    "revision": "da4fc2d9c4ed7e0de300",
+    "url": "/Sample/static/js/main.bdefb826.chunk.js"
   },
   {
     "revision": "3446f48cd7195351b66c",
@@ -32,28 +32,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sample/static/media/arc.73656f4a.svg"
   },
   {
-    "revision": "6adbc93c7f5fe23cdf81177315079400",
-    "url": "/Sample/static/media/bg_1.6adbc93c.jpg"
+    "revision": "2ae0b88e57362e38c6d099be4c8177d5",
+    "url": "/Sample/static/media/bg_1.2ae0b88e.jpg"
   },
   {
     "revision": "97d65cced8075fb32114cfed636fc9b8",
     "url": "/Sample/static/media/counter_bg.97d65cce.webp"
   },
   {
-    "revision": "5c2f3d34be433938ae44c502f7bb01df",
-    "url": "/Sample/static/media/home1.5c2f3d34.jpg"
+    "revision": "5d287d088d2febb815381ac5e2779ad5",
+    "url": "/Sample/static/media/home1.5d287d08.jpg"
   },
   {
-    "revision": "e5077bad411730b3f697ad6b0b2476e9",
-    "url": "/Sample/static/media/home2.e5077bad.jpg"
+    "revision": "cddc9478195247af7770a5a482f61b1d",
+    "url": "/Sample/static/media/home2.cddc9478.jpg"
   },
   {
-    "revision": "12cab8ae1974a824c424623002a230bf",
-    "url": "/Sample/static/media/home3.12cab8ae.jpg"
+    "revision": "47f118449415be9850029ed131265c3d",
+    "url": "/Sample/static/media/home3.47f11844.jpg"
   },
   {
-    "revision": "954af54b04567bc648f33130901ecc6a",
-    "url": "/Sample/static/media/home4.954af54b.jpg"
+    "revision": "1f203dfde18465308108ec738d9f0ccc",
+    "url": "/Sample/static/media/home4.1f203dfd.jpg"
   },
   {
     "revision": "daee0ca9071e45e82bd5343e6b95d1de",
