@@ -125,6 +125,9 @@
       .overlay .textOnLeft h1 {
         font-size: 5em; }
       .overlay .textOnLeft h3 {
-        font-size: 3em; } }
+        font-size: 3em; }
+
+  .slideShowContainer {
+    width: 80%; } }
 
 /*# sourceMappingURL=slideshow.module.css.map */
