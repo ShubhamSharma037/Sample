@@ -127,6 +127,9 @@
       .overlay .textOnLeft h3 {
         font-size: 3em; }
 
+  .container {
+    height: 90vh; }
+
   .slideShowContainer {
     width: 80%; } }
 
