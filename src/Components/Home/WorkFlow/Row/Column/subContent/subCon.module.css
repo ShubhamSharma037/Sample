@@ -1,11 +1,10 @@
 @import "https://fonts.googleapis.com/css2?family=Lora&display=swap";
 .con {
-  position: relative;
-  top: 40%;
-  transform: translateY(-50%);
-  margin: 0 auto;
-  height: auto;
-  width: 100%; }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; }
 
 .body {
   line-height: 25px;
@@ -15,12 +14,9 @@
 
 @media (max-width: 600px) {
   .con {
-    top: 10px;
-    transform: translateY(0%); }
+    margin-top: 5px; }
 
   .body {
-    height: auto;
-    padding: 5px;
     line-height: 20px;
     text-align: justify;
     font-size: 12px; } }
