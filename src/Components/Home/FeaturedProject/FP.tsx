@@ -14,8 +14,8 @@ const FP : React.FC = () =>{
         <Body>
             <Title>Featured Projects</Title>
             <div className={classes.project}>
-               <Gallery />
-               <Gallery dir/>
+               <Gallery idNo = {1}/>
+               <Gallery dir idNo={2}/>
             </div>
         </Body>
     )

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import classes from './slideshow.module.css';
 import Image  from './Slides/slide';
 import Home1 from '../../../media/homeSlider/home1.jpg';
@@ -12,20 +12,31 @@ import Home4 from '../../../media/homeSlider/home4.jpg';
 
 
 
+const cloneBackground = () =>{
+    let cloneItem : HTMLElement = document.getElementById('slider') as HTMLElement;
+    let backgroundSlider : HTMLElement = cloneItem.cloneNode(true) as HTMLElement;
+    backgroundSlider.classList.remove(`${classes.slideShowContainer}`);
+    backgroundSlider.classList.add(`${classes.clone}`);
+
+    document.getElementById('sliderContainer')?.appendChild(backgroundSlider);
+}
 
 
-const slideShow  = ()=>{
 
+const SlideShow  = ()=>{
+
+    useEffect(()=>{
+        cloneBackground();
+    },[])
+
+    
+
+    
     return(
-        <div className={classes.slideShowContainer}>
-            <div className={classes.overlay}>
-                <div className={classes.textOnLeft}>
-                    <h1 className={classes.fadeUp}>W</h1>
-                    <h3 className={classes.fadeLeft}>elcome</h3><br/>
-                    <h3 className={classes.flipY}>To</h3><br/>
-                    <h3 className={classes.zoomOut}>Dpdzines</h3>
-                </div>
-            </div>
+        <div className={classes.container} id='sliderContainer'>
+           
+        <div className={classes.slideShowContainer} id='slider'>
+           
             <div className={[classes.slides,classes.slide].join(' ')}>
                 <Image 
                     src = {Home1}
@@ -41,9 +52,10 @@ const slideShow  = ()=>{
                     />
             </div>    
         </div>
+    </div>
     )
 }
 
 
 
-export default slideShow;
+export default SlideShow;

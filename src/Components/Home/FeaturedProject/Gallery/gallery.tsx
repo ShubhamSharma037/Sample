@@ -8,6 +8,7 @@ import GalleryRow from './GalleryItems/galleryItems';
 
 interface Props{
     dir? : boolean;
+    idNo : number;
 }
 
 
@@ -19,8 +20,7 @@ const Gallery : React.FC<Props> = (props) =>{
 
 
     return(
-        <div className={classes.gallery}>
-            <GalleryRow dir={props.dir}/>
+        <div className={classes.gallery} id={`gallery${props.idNo}`}>
             <GalleryRow dir={props.dir}/>
         </div>
     )
