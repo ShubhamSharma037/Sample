@@ -11,6 +11,7 @@
 
 @media (max-width: 600px) {
   .CustomerContainer {
+    height: 60vh;
     padding: 10px; }
 
   .CustomerFeeds {
