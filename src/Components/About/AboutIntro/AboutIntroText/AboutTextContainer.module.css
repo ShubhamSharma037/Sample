@@ -2,11 +2,13 @@
 
 .aboutText{
     float: right;
-    width : 40%;
+    width : 50%;
     height: 80%;
-    overflow: hidden;
-    margin-right: 100px;
+    /* overflow: hidden; */
+    margin-top:  80px;
+    margin-right: 30px;
     padding : 5px;
+    /* border : 1px solid red; */
 }
 
 .txt{
@@ -21,7 +23,7 @@
     text-align: justify;
     line-height: 35px;
     font-family: 'Lora', serif;
-    font-size: 16px;
+    font-size: 15px;
     color : #666666;
 }
 
@@ -36,6 +38,7 @@
 
 @media (max-width : 600px){
     .aboutText{
+        margin-top : 40px;
         float :none;
         height: auto;
         width : 100%;
@@ -50,7 +53,7 @@
     .txt p{
         height : auto;
         font-size : 12px;
-        line-height: 20px;
+        line-height: 25px;
         text-align: justify;
     }
 }

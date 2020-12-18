@@ -11,6 +11,9 @@ const Title = Styled.div`
     height : auto;
     // border : 1px solid #8377D1;
     margin : 20px auto;
+    @media(max-width : 600px){
+        margin : 0;
+    }
 `;
 
 

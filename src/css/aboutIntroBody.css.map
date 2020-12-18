@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAG,KAAK;EACd,OAAO,EAAG,IAAI;EACd,MAAM,EAAG,aAAa;EACtB,OAAO,EAAE,YAAY;;AAKzB,yBAA0B;EACtB,eAAe;IACX,OAAO,EAAE,GAAG;IACZ,KAAK,EAAE,IAAI",
+"sources": ["../sass/aboutIntroBody.scss"],
+"names": [],
+"file": "aboutIntroBody.css"
+}
