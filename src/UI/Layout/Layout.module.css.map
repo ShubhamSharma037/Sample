@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,UAAU;EACN,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI",
-"sources": ["../../sass/Components/Layout/Layout.scss"],
-"names": [],
-"file": "Layout.module.css"
-}
