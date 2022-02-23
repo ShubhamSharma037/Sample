@@ -33,6 +33,7 @@ const Carousel : React.FC<Props> = (props) =>{
         <React.Fragment>
             <ProjectCarousel
             swipeable
+            draggable={false}
             removeArrowOnDeviceType={['mobile']}
             infinite
             responsive={responsive}

@@ -10,8 +10,8 @@ import Map from '../../../media/Contact/map.png';
 const ContactDetails : React.FC = () =>{
     return(
         <div className={classes.Details}>
-           <Detail email image={Mail}>dpdzines@gmail.com</Detail>
-           <Detail image={telephone}>+91 99xxxxx</Detail>
+           <Detail email image={Mail}>sunny.bhardwaj4u@gmail.com</Detail>
+           <Detail image={telephone}>+91 7011100970</Detail>
            <Detail link image={Map}>https://goo.gl/maps/xxaG7szeAp5ig3aD8</Detail>
         </div>
     )

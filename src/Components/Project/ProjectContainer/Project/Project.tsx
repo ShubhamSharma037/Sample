@@ -6,6 +6,7 @@ import Carousel from './Carousel/Carousel';
 
 
 type Props = {
+    title : string,
     children : any
 }
 
@@ -26,7 +27,7 @@ const Title = Styled.div`
 const Project : React.FC<Props> = (props) =>{
     return(
         <div className={classes.Project} data-aos='fade-up' data-aos-duration="400">
-            <Title>Project Name</Title>
+            <Title>{props.title}</Title>
             <Carousel>{props.children}</Carousel>
         </div>
     )

@@ -12,12 +12,12 @@ const Footer : React.FC = () =>{
                 <div className={classes.contact}>
                     <section id={classes.mail}>
                         <img src={Mail} alt='dpdzines'/>
-                        <h4><a href="mailto:">shubhamsharma616.ss@gmail.com</a></h4>
+                        <h4><a href="mailto:">sunny.bhardwaj4u@gmail.com</a></h4>
                     </section>
 
                     <section id={classes.tel}>
                         <img src={telephone} alt='dpdzines'/>
-                        <h4><a href="tel:">7982115283</a></h4>
+                        <h4><a href="tel:">+91 7011100970</a></h4>
                     </section>
                 </div>
             </div>

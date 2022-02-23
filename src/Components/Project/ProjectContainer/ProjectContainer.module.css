@@ -1,7 +1,9 @@
 .ProjectContainer {
   height: 100%;
-  width: 100%;
-  padding: 30px; }
+  width: 80%;
+  padding: 30px; 
+  margin : 10px auto;
+}
 
 @media (max-width: 600px) {
   .ProjectContainer {

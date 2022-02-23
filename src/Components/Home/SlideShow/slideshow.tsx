@@ -1,14 +1,12 @@
 import React, { useEffect } from 'react';
 import classes from './slideshow.module.css';
 import Image  from './Slides/slide';
-import Home1 from '../../../media/homeSlider/home1.jpg';
-import Home2 from '../../../media/homeSlider/home2.jpg';
-import Home3 from '../../../media/homeSlider/home3.jpg';
-import Home4 from '../../../media/homeSlider/home4.jpg';
-// import Home5 from '../../../media/homeSlider/home5.jpg';
-// import Home6 from '../../../media/homeSlider/home6.jpg';
-// import Home7 from '../../../media/homeSlider/home7.jpg';
-// import Home8 from '../../../media/homeSlider/home8.jpg';
+import  importAllImages  from '../../../media/media';
+
+const images = importAllImages(require.context('../../../media/homeSlider',false,/\.(png|jpe?g|svg)$/))
+
+
+
 
 
 
@@ -38,18 +36,12 @@ const SlideShow  = ()=>{
         <div className={classes.slideShowContainer} id='slider'>
            
             <div className={[classes.slides,classes.slide].join(' ')}>
-                <Image 
-                    src = {Home1}
-                     />
-                <Image 
-                    src = {Home2}
-                    />
-                <Image 
-                    src = {Home3}
-                    />
-                <Image 
-                    src = {Home4}
-                    />
+                {
+                    Object.keys(images).map((image : any)=>(<Image 
+                        key = {image}
+                        src = {images[image]}
+                         />))
+                }
             </div>    
         </div>
     </div>
