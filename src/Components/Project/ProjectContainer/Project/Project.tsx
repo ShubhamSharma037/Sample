@@ -17,9 +17,11 @@ const Title = Styled.div`
     font-family : -apple-system-caption1;
     border-bottom : 1px solid #8377D1;
     line-height : 40px;
+    
 
     @media(max-width:600px){
-        font-size : 20px;
+        font-size : 14px;
+        width : 100%;
     }
 `; 
   

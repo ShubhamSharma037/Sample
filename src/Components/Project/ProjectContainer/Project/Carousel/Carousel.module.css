@@ -1,6 +1,6 @@
 .CarouselContainer{
-    margin-top : 30px;
-    height : 90%;
+    margin : 30px auto;
+    height : 80%;
     width : 100%;
     /* align-items: initial; */
     /* border : 1px solid red; */
@@ -8,7 +8,6 @@
 
 .items{
     border-radius : 10px;
-    overflow: hidden;
     height: 600px;
 }
 .items img{
@@ -18,11 +17,14 @@
 }
 @media(max-width:600px){
     .CarouselContainer{
-        margin-top: 15px;
+        margin: 15px auto;
+        height : 80%;
+        width : 100%;
         align-items: initial;
+        
     }
     .items{
-        height: 95%;
+        height: 80%;
     }
     .items img{
         height: 100%;

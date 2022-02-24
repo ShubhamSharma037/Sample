@@ -8,6 +8,8 @@
   .Project {
     margin-top: 20px;
     padding: 0;
-    height: 90vh; } }
+    height: 60vh; 
+    /* border : 1px solid blue; */
+  } }
 
 /*# sourceMappingURL=Project.module.css.map */
