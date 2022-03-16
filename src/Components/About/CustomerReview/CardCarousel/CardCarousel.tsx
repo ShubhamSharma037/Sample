@@ -26,11 +26,6 @@ const responsive = {
   };
 
 
- type Customer = {
-     name : string,
-     feed : string
- }
-
  
 
 const CardCarousel : React.FC = () =>{
